@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report
 
 st.title("Interactive ML Model Selection")
 
-df = pd.read_csv(r"demonstration\streamlit_demonstration\Cleaned_dataset.csv")
+df = pd.read_csv("Cleaned_dataset.csv")
 st.write("### Dataset Preview:")
 st.write(df.head())
 
